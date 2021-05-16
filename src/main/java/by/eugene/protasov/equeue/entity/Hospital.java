@@ -14,7 +14,6 @@ public class Hospital {
 
     private static final Hospital HOSPITAL_INSTANCE;
 
-    private LinkedBlockingQueue<Patient> patientsInQueue = new LinkedBlockingQueue<>();
     private ConcurrentHashMap<Doctor, LinkedBlockingQueue<Patient>> doctorsAndTheirPatientsQueue = new ConcurrentHashMap<>();
 
     public static Hospital getHospital() {
