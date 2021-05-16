@@ -6,7 +6,7 @@ EQueue | Электронная очередь
 
 ---
 
-### Java SDK ver 1.12
+### Java SDK ver 12.0.2
 ### Project language level - 12
 
 ---
